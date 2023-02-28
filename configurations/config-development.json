@@ -1,0 +1,43 @@
+﻿{
+  "cluster": {
+    "workerCount": 5
+  },
+  "server": {
+    "bodyParser": {
+      "limit": "20000kb"
+    }
+  },
+  "mongo": { 
+    "url": "mongodb+srv://catholiclwdev:5Alr8byIt34wGSp6@cluster0.w1o4xv8.mongodb.net/catholiclw_dev_db",
+    "host": "",
+    "port": "",
+    "username": "",
+    "password": "",
+    "database": ""
+    },
+  "mailer": {
+    "host": "smtp.gmail.com",
+    "port": "587",
+    "email": "jay.desani.test@gmail.com",
+    "password": "lipnerxsopgtecrd",
+    "supportMail": "smtp.ethereal.email"
+  },
+  "JWT_TOKEN": {
+    "SECRET":"$2a$10$e.oPc.dyrwRoQCpDvO9Rhe",
+    "ALGORITHM":"HS512",
+    "expireTime":"1d",
+    "ttl":86400000
+    },
+    "emailVerifyUrl": "https://catholiclw-cust.dev.brainvire.net/verify-email",
+    "resetPasswordBaseUrl": "https://catholiclw-cust.dev.brainvire.net/create-new-password",
+    "adminResetPasswordBaseUrl": "https://catholiclw-admin.dev.brainvire.net/reset-password",
+    "SECRET_KEY": "$2a$10$e.oPc.dyrwRoQCpDvO9Rhe",
+    "adminEmail": "noreply.relevant.radio@gmail.com",
+    "AWS_S3": {
+      "BUCKET_NAME": "catholiclw-dev-static",
+      "ACCESSKEYID":"AKIAT6MOKA67H4YP2TML",
+      "SECRETACCESSKEY":"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",
+      "REGION":"us-east-1"
+      }
+    
+}

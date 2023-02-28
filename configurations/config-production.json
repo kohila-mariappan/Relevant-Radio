@@ -1,0 +1,34 @@
+﻿{
+  "cluster": {
+    "workerCount": 5
+  },
+  "server": {
+    "bodyParser": {
+      "limit": "20000kb"
+    }
+  },
+  "mongo": {
+    "url": "mongodb://localhost:27017/catholiclw_local_db",
+    "host": "localhost",
+    "port": 2701,
+    "username": "",
+    "password": "",
+    "database": "catholiclw_local_db"
+    },
+  "mailer": {
+    "host": "",
+    "port": "",
+    "email": "",
+    "password": "",
+    "supportMail": ""
+  },
+  "emailVerifyUrl": "http://localhost:5003/user/email/verify",
+  "JWT_TOKEN": {
+    "SECRET":"$2a$10$e.oPc.dyrwRoQCpDvO9Rhe",
+    "ALGORITHM":"HS512",
+    "expireTime":"1d",
+    "ttl":86400000
+    },
+    "SECRET_KEY": "$2a$10$e.oPc.dyrwRoQCpDvO9Rhe"
+
+}
